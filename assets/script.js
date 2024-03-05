@@ -35,6 +35,7 @@ function startQuiz() {
     currentQuestionIndex = 0;
     instructionsEl.style.display = 'none';
     startBtn.style.display = 'none';
+    clearScoresBtn.style.display = 'none';
     timer = 60;
     startTimer();
     showQuestion();
