@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div id="score-section">
+        <a href="#" id="view-scores">View High Scores</a>
+        <div id="timer">Time: <span id="time">60</span>s</div>
+      </div>
+      <h2 id="question">Coding Quiz Challenge</h2>
+      <p id="instructions">
+        Try to answer the following code related questions within the time
+        allotted. Keep in mind that wrong answers will be penalized with a
+        deduction from your score time of 10 seconds.
+      </p>
+      <ul id="answers"></ul>
+      <div id="feedback"></div>
+      <button id="start-btn">Start Quiz</button>
+      <button id="clear-scores" style="display:none" >Clear High Scores</button>
+      <div id="high-scores" style="display: none">
+        <h3>High Scores</h3>
+        <ul id="scores-list"></ul>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
 </html>
