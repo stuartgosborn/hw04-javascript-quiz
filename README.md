@@ -23,3 +23,16 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
+
+
+## Screen Shot
+
+![alt text](image.png)
+
+## Links
+
+GitHub Repository:
+https://github.com/stuartgosborn/hw04-javascript-quiz  
+
+Deployed Static Site:
+https://stuartgosborn.github.io/hw04-javascript-quiz/
