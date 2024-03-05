@@ -31,11 +31,12 @@ const questions = [
 ];
 
 function startQuiz() {
-    score = 0;
-    currentQuestionIndex = 0;
     instructionsEl.style.display = 'none';
     startBtn.style.display = 'none';
     clearScoresBtn.style.display = 'none';
+    highScoresElement.style.display = 'none';
+    score = 0;
+    currentQuestionIndex = 0;
     timer = 60;
     startTimer();
     showQuestion();
